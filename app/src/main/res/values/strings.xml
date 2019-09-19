@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">instant-mvp-sample</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sample">MVP Sample</string>
+</resources>
