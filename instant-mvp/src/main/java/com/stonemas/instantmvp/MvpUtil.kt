@@ -5,20 +5,6 @@ import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 import java.util.*
 
-
-object ModelsUtil {
-
-    fun generateId(): String {
-        return UUID.randomUUID().toString()
-    }
-
-}
-
-//@Suppress("UNCHECKED_CAST")
-//fun <M : BaseModel> BaseActivity<M>.getMClass(): Class<M> {
-//    return (javaClass.genericSuperclass as ParameterizedType).actualTypeArguments[0] as Class<M>
-//}
-
 @Suppress("UNCHECKED_CAST")
 fun <M : MvpModel, V : MvpView, P : MvpPresenter<M, V>> MvpActivity<M, V, P>.getMClass(): Class<M> {
     return (javaClass.genericSuperclass as ParameterizedType).actualTypeArguments[0] as Class<M>
