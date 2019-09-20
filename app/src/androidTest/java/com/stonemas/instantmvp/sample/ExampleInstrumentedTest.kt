@@ -1,4 +1,4 @@
-package com.codelabsgh.instantmvp.sample
+package com.stonemas.instantmvp.sample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -5,7 +5,7 @@ apply plugin: 'com.novoda.bintray-release'
 
 apply from: 'bintray-vars.gradle'
 
-def publishVersionID = '0.1.1'
+def publishVersionID = '0.1.2'
 
 publish {
 

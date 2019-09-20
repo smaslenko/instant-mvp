@@ -39,6 +39,11 @@ open class MvpPresenter<M : MvpModel, V : MvpView> : LifecycleObserver {
         Log.d(TAG, "## onCreate()")
     }
 
+    @OnLifecycleEvent(Lifecycle.Event.ON_START)
+    protected open fun onStart() {
+        Log.d(TAG, "## onStart()")
+    }
+
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
     protected open fun onResume() {
         Log.d(TAG, "## onResume()")
@@ -47,6 +52,11 @@ open class MvpPresenter<M : MvpModel, V : MvpView> : LifecycleObserver {
     @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
     protected fun onPause() {
         Log.d(TAG, "## onPause()")
+    }
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
+    protected fun onStop() {
+        Log.d(TAG, "## onStop()")
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
