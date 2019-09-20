@@ -77,5 +77,5 @@ class SamplePresenterA : MvpPresenter<SampleModelA, SampleViewA>() {
 Add this in your app's **build.gradle** file:
 
 ```
-compile 'com.stonemas.instantmvp:instant-mvp:0.1.1'
+compile 'com.stonemas.instantmvp:instant-mvp:0.1.2'
 ```
