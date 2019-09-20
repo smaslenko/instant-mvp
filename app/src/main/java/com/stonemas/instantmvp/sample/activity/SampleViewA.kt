@@ -1,8 +1,8 @@
-package com.codelabsgh.instantmvp.sample
+package com.stonemas.instantmvp.sample.activity
 
 import com.stonemas.instantmvp.MvpView
 
-interface SampleView : MvpView {
+interface SampleViewA : MvpView {
 
     fun showSampleSnack(message: String)
 

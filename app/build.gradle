@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.codelabsgh.instantmvp.sample"
+        applicationId "com.stonemas.instantmvp.sample"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 1
@@ -33,5 +33,6 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+//    implementation project(path: ':instant-mvp')
     implementation 'com.stonemas.instantmvp:instant-mvp:0.1.1'
 }

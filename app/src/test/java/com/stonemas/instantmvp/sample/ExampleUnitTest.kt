@@ -1,4 +1,4 @@
-package com.codelabsgh.instantmvp.sample
+package com.stonemas.instantmvp.sample
 
 import org.junit.Test
 

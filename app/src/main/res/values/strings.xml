@@ -2,4 +2,7 @@
     <string name="app_name">instant-mvp-sample</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_sample">MVP Sample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
