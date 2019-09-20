@@ -1,3 +1,5 @@
+[ ![Download](https://api.bintray.com/packages/ispstas/stonemas/instant-mvp/images/download.svg) ](https://bintray.com/ispstas/stonemas/instant-mvp/_latestVersion)
+
 # instant-mvp
 Lightweight MVP library that binds your Activity or Fragment to the model-view-presenter trio.  
 
