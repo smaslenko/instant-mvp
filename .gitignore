@@ -16,5 +16,4 @@
 .externalNativeBuild
 .cxx
 
-bintray_upload.sh
-bintray-vars.gradle
+bintray-creds
