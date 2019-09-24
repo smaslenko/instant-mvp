@@ -3,7 +3,7 @@ name: Android CI
 on:
   push:
     branches:
-    - develop
+    - dev-actions-test
 
 jobs:
   build_deploy:
@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    
     - uses: actions/checkout@v1
     - name: set up JDK 1.8
       uses: actions/setup-java@v1
@@ -19,8 +20,9 @@ jobs:
        
         
     - name: Build with Gradle and deploy to bintray
-      with:
+      env:
         USERID_BINTRAY: ${{ secrets.USERID_BINTRAY }}
         APIKEY_BINTRAY: ${{ secrets.APIKEY_BINTRAY }}
       run: sh bintray_upload.sh
+      shell: bash
 
