@@ -1,0 +1,6 @@
+ext {
+    userOrganization = 'ispstas'
+    repositoryName = 'stonemas'
+    groupProjectID = 'com.stonemas.instantmvp'
+    artifactProjectID = 'instant-mvp'
+}
