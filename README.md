@@ -3,7 +3,7 @@
 ![](https://github.com/smaslenko/instant-mvp/workflows/Android%20CI/badge.svg)
 
 # instant-mvp
-Lightweight MVP library that binds your Activity or Fragment to the model-view-presenter trio.  
+Lightweight Android MVP library that binds your Activity or Fragment to the model-view-presenter trio.  
 
 It consists of several main classes that have to be inharited in order to make library working:  
 * `MvpActivity`
